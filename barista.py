@@ -8,4 +8,4 @@ total = price * int(quantity)
 #print(quantity)
 #print(type(quantity))
 
-print(quantity + " " + order + " comming right up! " + "The total will be " + str(total) + ", please.")
+print(quantity + " " + order + " comming right up! " + "The total will be " + str(total) + "€, please.")
