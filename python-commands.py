@@ -18,7 +18,7 @@ print("Hello" * 100)
 
 ### EP 2
 
-print("Hello, welmoce to the coffee shop")
+print("Hello, welcome to the coffee shop")
 #print("What is your name?")
 
 # Input function and save it to a variable
