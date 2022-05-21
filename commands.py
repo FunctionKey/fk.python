@@ -108,7 +108,10 @@ for d in days:
     if (d=="thu"):continue  # skip item if found
     print(d)
 
-# Import
+# Modules
+# Check imported modules
+dir()
+# Import new modules
 import math
 from re import L
 print("pi is ", math.pi)
