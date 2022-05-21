@@ -42,12 +42,30 @@ kid = 8
 age_to_school = 6
 
 # Logic
+# Logic exercise 1
 if kid < age_to_school:
     print("kid should go be in pre-school \n")
 elif kid == age_to_school:
     print("kid is accepted in school \n")
 else:
     print("kid should be in another class \n")
+
+# Logic exercise 2
+print("Welcome")
+name = input("What's your name?\n")
+if name == "ben" or name == "ann":
+    evil = input("Are you evil?\n")
+    if evil == "yes":
+        deeds = int(input("How many good deeds did you do today?\n"))
+        if deeds < 4:
+            print("Your are not welcome.")
+            exit()  # If this is true exit program
+        else:
+            print("Ok, you can come in this time.")
+    else:
+        print("Hello " + name + ", thanks for coming!\n")
+else:
+    print("Hello " + name + ", thanks for coming!\n")
 
 # Functions
 print("hello world without function")
