@@ -1,3 +1,8 @@
+# REPL
+# n1 = int(input("number 1: ")) ;\    # ;\ indicates REPL that there are multiple lines
+# n2 = int(input("number 2: ")) ;\
+# print("The sum is: ", n1 + n2)
+
 print("hello world")
 print(2*2)
 print(2**2)

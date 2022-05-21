@@ -67,6 +67,30 @@ print (5 ** 7)
 print(5 ** 7 + 6 / 9 * 6 - 4)
 math = 5 ** 7 + 6 / 9 * 6 - 4
 print (math)
-
 results = age + actual_age + math
 print(results)
+
+### EXERCISE BARISTA
+
+name = input("Hi, what is yout name?\n")
+menu = "- coffee\n- milk\n- cappucino"
+price = 8
+order = input("Welcome " + name + ". Here is our menu:\n" + menu + "\nWhat would you like to order?\n")
+quantity = input("And how many would you like?\n")
+total = price * int(quantity)
+#print(quantity)
+#print(type(quantity))
+print(quantity + " " + order + " comming right up! " + "The total will be " + str(total) + "€, please.")
+
+### EXRCISE 2
+
+# Print name
+print("filipe")
+# Print several number
+print(1,2,3,4)
+# Print sum of two numbers
+print(64+32)
+# Print sum of two var's
+x = 64
+y = 32
+print(x + y)
